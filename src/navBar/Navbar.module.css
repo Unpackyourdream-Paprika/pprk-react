@@ -1,0 +1,44 @@
+.navBar * {
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, Malgun Gothic,
+    맑은 고딕, 돋움, dotum, 굴림, gulim, Arial, sans-serif, Apple SD Gothic Neo !important;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 30px;
+  align-items: center;
+  border-bottom: 0.5px solid #eeeeee;
+}
+.navBarMenu {
+  color: black;
+}
+
+.allCategory {
+  width: 201px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  color: white;
+  padding: 10px;
+  gap: 12px;
+  background-color: #06b87f;
+  border: 1px solid #06b87f;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.navBarMore {
+  font-weight: 100;
+  color: #2f2e2e5c;
+  font-size: 14px;
+  line-height: 44px;
+  padding: 0 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
